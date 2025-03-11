@@ -2,17 +2,28 @@
 
 1.  Clonar o projeto 
 
-        git clone https://github.com/miqueiassilva/nlw-pocket-mobile-react-nearby.git
+        > git clone https://github.com/miqueiassilva/nlw-pocket-mobile-react-nearby.git
 
 2. Acessar pasta do projeto 
 
-        cd ./nlw-pocket-mobile-react-nearby
+       > cd ./nlw-pocket-mobile-react-nearby/src/services
 
-3. Instalar dependencias
+
+3. Abrir o arquivo "api.ts" em algum editor de texto
+   
+4. Alterar a variavel "baseURL" para o Ip da sua maquina
+
+        > Observação: http://SEU_IP:3333
+   
+5. Voltar para pasta principal do projeto
+
+        > cd ../../../nlw-pocket-mobile-react-nearby
+   
+6. Instalar dependencias
 
         npm install
 
-4. Executar projeto 
+7. Executar projeto 
 
         npx expo start
 
@@ -31,7 +42,7 @@
 
         cd ./api
 
-4. Executar projeto
+5. Executar projeto
 
         npm start
 
@@ -40,4 +51,3 @@
 
         Para Executar a funcionalidade "Ler QR Code"será necessario copiar o id do Market gerado no console e gerar um QR Code em qualquer site/aplicativo que desejar. 
 
-        ![alt text](image.png)
