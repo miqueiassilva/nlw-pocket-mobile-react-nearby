@@ -39,3 +39,5 @@
 # Observação
 
         Para Executar a funcionalidade "Ler QR Code"será necessario copiar o id do Market gerado no console e gerar um QR Code em qualquer site/aplicativo que desejar. 
+
+        ![alt text](image.png)
